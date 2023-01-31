@@ -1,0 +1,42 @@
+.header-top-side, .header-down-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-right-side {
+    display: flex;
+}
+
+.title {
+    text-align: center;
+}
+
+.containers {
+    display: flex;
+    justify-content: center;
+}
+.first-container, .second-container, .third-container, .fourth-container {
+    display: flex;
+    flex-direction: column;
+}
+.section-three {
+    display: flex;
+    flex-direction: column;
+}
+.description {
+    align-self: center;
+}
+.author {
+    align-self: flex-end;
+}
+.section-four {
+    display: flex;
+    flex-direction: column;
+}
+.banner-down {
+    display: flex;
+    justify-content: space-between;
+}
+.footer {
+    text-align: center;
+}
