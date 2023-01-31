@@ -1,3 +1,28 @@
+.header, .footer {
+    background-color: #1F2937 ;
+}
+
+.header-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.header-description, .header-links, .footer, .image-placeholder {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-button, .section-four, .banner-button {
+    color: white;
+    background-color: #3882F6;
+}
+
 .header-top-side, .header-down-side {
     display: flex;
     justify-content: space-between;
@@ -9,6 +34,9 @@
 
 .title {
     text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937
 }
 
 .containers {
@@ -22,12 +50,18 @@
 .section-three {
     display: flex;
     flex-direction: column;
+    background-color: #E5E7EB;
 }
 .description {
     align-self: center;
+    font-size: 36px;
+    color: #1F2939;
+    font-weight: 300px;
 }
 .author {
     align-self: flex-end;
+    font-weight: 800;
+    font-size: 24px;
 }
 .section-four {
     display: flex;
