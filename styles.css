@@ -15,18 +15,15 @@ body {
     margin-bottom:90px;
     gap: 20px;
 }
-
 .header-title {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
 }
-
 .header-description, .header-links, .footer, .image-placeholder {
     font-size: 18px;
     color: #E5E7EB;
 }
-
 .image-placeholder {
     background-color: grey;
     width: 510px;
@@ -36,14 +33,12 @@ body {
     align-items: center;
     
 }
-
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
     margin-top:15px;
     white-space: nowrap;
 }
-
 .header-button, .section-four, .banner-button {
     color: white;
     background-color: #3882F6;
@@ -55,18 +50,15 @@ body {
     font-weight: bold;
     margin-top: 5px;
 }
-
 .header-top-side, .header-down-side {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 45px;
 }
-
 .top-right-side {
     display: flex;
 }
-
 .title {
     text-align: center;
     font-size: 36px;
@@ -75,7 +67,6 @@ body {
     margin-top:32px;
     margin-bottom:32px;
 }
-
 .containers {
     display: flex;
     justify-content: center;
@@ -127,7 +118,6 @@ body {
     display: flex;
     flex-direction: column;
 }
-
 .footer {
     display: flex;
     justify-content: center;
@@ -144,8 +134,6 @@ body {
     padding: 40px 100px;;
     margin: 70px auto;
     border-radius: 5px;
-    
-
 }
 .banner-title {
     font-size: 22px;
@@ -156,4 +144,8 @@ body {
     padding: 6px 22px;
     border-radius: 7px;
     font-weight: bold;
+}
+a, a:visited{
+    text-decoration: none;
+    color:inherit;
 }
