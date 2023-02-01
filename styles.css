@@ -1,5 +1,7 @@
 body {
     margin: 0px;
+    height: 100vh;
+    width: auto;
 }
 .header {
     background-color: #1F2937 ;
@@ -27,7 +29,7 @@ body {
 
 .image-placeholder {
     background-color: grey;
-    width: 560px;
+    width: 510px;
     height:200px;
     display: flex;
     justify-content: center;
@@ -39,6 +41,7 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     margin-top:15px;
+    white-space: nowrap;
 }
 
 .header-button, .section-four, .banner-button {
@@ -57,6 +60,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 45px;
 }
 
 .top-right-side {
@@ -123,11 +127,33 @@ body {
     display: flex;
     flex-direction: column;
 }
-.banner-down {
-    display: flex;
-    justify-content: space-between;
-}
+
 .footer {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1F2937 ;
+    height: 100px;
+}
+.section-four {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    padding: 40px 100px;;
+    margin: 70px auto;
+    border-radius: 5px;
+    
+
+}
+.banner-title {
+    font-size: 22px;
+    font-weight: 800;
+}
+.banner-button {
+    border-color: white;
+    padding: 6px 22px;
+    border-radius: 7px;
+    font-weight: bold;
 }
